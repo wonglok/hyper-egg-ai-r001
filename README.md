@@ -4,7 +4,7 @@
 *An intelligent, AI-powered desktop tool that reads, understands, and responds to the contents of any folder.*
 
 ## 📖 Overview
-Welcome to **Hyper Egg AI Folder App**, a lightweight, privacy-first desktop application that scans your directories, analyzes file contents using advanced AI models, and delivers contextual insights, reflections, or recommendations tailored to your workflow. Built with **[Bun](https://bun.sh/)** for blazing-fast execution and optimized for local inference, Hyper Egg brings powerful AI to your personal file system without compromising speed or security.
+Welcome to **Hyper Egg AI Folder App**, a lightweight, privacy-first desktop application that scans your directories, analyzes file contents using advanced AI models, and delivers contextual insights, reflections, or recommendations tailored to your workflow. Built with **[Bun](https://bun.sh/)** for blazing-fast execution and the app's AI loop is designed and optimized for local inference, Hyper Egg brings powerful AI to your personal file system without compromising speed or security.
 
 ## ✨ Key Features
 - 📂 **Smart Folder Analysis**: Automatically scans and interprets files in your chosen directory
