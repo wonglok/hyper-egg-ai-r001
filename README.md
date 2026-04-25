@@ -23,7 +23,7 @@ Hyper Egg is engineered for efficiency and accessibility. We prioritize optimize
 - ✅ **Fast Startup**: Minimal memory footprint ensures the app launches instantly even on constrained systems
 
 > 💡 *Real-World Test:*  
-> *"Hyper Egg runs smoothly on my $500 Windows Mini PC with 8GB RAM, analyzing folders and generating reflections using Google Gemma 4 E2B with 100K context window configured."*
+> *"Hyper Egg runs smoothly on my $500 Windows Mini PC with 32GB RAM, analyzing folders and generating reflections using Google Gemma 4 E2B with 100K context window configured."*
 
 ## 📖 Example Use Case: Spiritual & Emotional Support
 1. Place your daily journal entries and Bible readings in a dedicated folder.
