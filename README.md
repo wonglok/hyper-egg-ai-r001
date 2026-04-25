@@ -7,25 +7,10 @@ https://github.com/user-attachments/assets/f0df8dda-4b21-4071-9bc3-5b5e66c33ade
 
 
 ## 📖 Overview
-Welcome to **Hyper Egg AI Folder App**, a lightweight, privacy-first desktop application that scans your directories, analyzes file contents using advanced AI models, and delivers contextual insights, reflections, or recommendations tailored to your workflow. Built with **[Bun](https://bun.sh/)** for blazing-fast development experience, very changable with react three fiber for 3d interfaces and the app's AI loop is designed and optimized for local inference, Hyper Egg brings powerful AI to your personal file system without compromising speed or security.
+Welcome to **Hyper Egg AI Folder App**, a lightweight, privacy-first desktop application that scans your directories, analyzes file contents using advanced AI models, and delivers contextual insights, reflections, or recommendations tailored to your workflow. Optimized for local inference, Hyper Egg brings powerful AI to your personal file system without compromising speed or security.
 
-## ✨ Key Features
-- 📂 **Smart Folder Analysis**: Automatically scans and interprets files in your chosen directory
-- 🤖 **AI-Powered Insights**: Generates contextual responses, summaries, or suggestions based on file content
-- 📖 **Custom Use Cases**: Perfect for diaries, devotional libraries, study notes, journaling, or project documentation
-- 🌍 **Cross-Platform Support**: Ready-to-run binaries for Windows and macOS, plus full source code for Linux
-- 🔒 **Privacy-First Design**: All file processing is local by default (no data leaves your device unless explicitly configured)
+<img width="1207" height="1637" alt="mini-pc" src="https://github.com/user-attachments/assets/3d6b5cfe-180d-4d7f-9c37-8baac6cdcddf" />
 
-## 🚀 Ultra-Lightweight & Hardware Support
-Hyper Egg is engineered for efficiency and accessibility. We prioritize optimized AI workflows so you can get intelligent insights on **any** device, including budget hardware.
-
-- ✅ **Low RAM Optimization**: Successfully runs ultra-quantized models like **Google Gemma 4 E2B** on devices with only **32GB of RAM**
-- ✅ **Budget-Friendly**: Fully compatible with affordable **~$500 Windows Mini PCs**
-- ✅ **No GPU Required**: Runs entirely on CPU, making it perfect for office workstations, older laptops, or low-power devices
-- ✅ **Fast Startup**: Minimal memory footprint ensures the app launches instantly even on constrained systems
-
-> 💡 *Real-World Test:*  
-> *"Hyper Egg runs smoothly on my $500 Windows Mini PC with 32GB RAM, analyzing folders and generating reflections using Google Gemma 4 E2B with 100K context window configured."*
 
 ## 📖 Example Use Case: Spiritual & Emotional Support
 1. Place your daily journal entries and Bible readings in a dedicated folder.
@@ -42,12 +27,11 @@ Hyper Egg is engineered for efficiency and accessibility. We prioritize optimize
 
 ### 💻 From Source
 ```bash
-git clone https://github.com/YOUR_USERNAME/hyper-egg-ai.git
-cd hyper-egg-ai
+git clone https://github.com/wonglok/hyper-egg-ai-r001.git
+cd hyper-egg-ai-r001
 bun install
 bun run dev
 ```
-> 💡 *Note: Hyper Egg uses **[Bun](https://bun.sh/)** for fast, native execution. Ensure you have Bun installed (`curl -fsSL https://bun.sh | bash`). Some AI features may require LM Studio or an API key. Check `CONFIG.md` or in-app prompts for detailed instructions.*
 
 ## 🤖 LMStudio Integration
 Hyper Egg leverages **[LM Studio](https://lmstudio.ai/)** as its local AI engine, providing a seamless, offline experience without complex command-line configurations.
@@ -62,18 +46,16 @@ Hyper Egg leverages **[LM Studio](https://lmstudio.ai/)** as its local AI engine
 1. Download and install [LM Studio](https://lmstudio.ai/)
 2. Open LM Studio and download your preferred model (e.g., *Gemma 4 E2B*, *Llama*, or *Mistral*)
 3. In LM Studio, go to the **Local Server** tab and click **Start Server**
-4. Open Hyper Egg, navigate to **Settings**, and set your Local AI Provider to `LMStudio`
-5. Hyper Egg will automatically detect the server at `http://localhost:1234/v1`
+5. Please enable the LMStudio CORS, and Local Hosting Access.
 
-> 💡 *Tip: You can switch between Cloud APIs and Local Models instantly via the app settings. Bun's fast hot-reloading makes testing AI prompts incredibly smooth.*
+<img width="693" height="556" alt="Screenshot 2026-04-25 at 10 56 37 PM" src="https://github.com/user-attachments/assets/3e4e35c0-b36b-436e-b478-de1c8f8c76ad" />
+
+
 
 ## 📦 Dependencies & Requirements
 - **Bun** (v1.0+) or Node.js 18+
 - **LM Studio** (Required for local model inference)
 - **API Key** (Optional, only if using Cloud AI services like OpenAI/Anthropic)
-- **Hardware:** 
-  - *Minimum:* 4GB RAM, Dual-core CPU
-  - *Recommended for Local AI:* 32GB RAM, Quad-core CPU (Gemma 4 E2B optimized)
 
 ## 🔒 Privacy & AI Disclaimer
 - All file scanning and analysis occur locally unless you explicitly enable cloud AI services.
@@ -83,21 +65,8 @@ Hyper Egg leverages **[LM Studio](https://lmstudio.ai/)** as its local AI engine
 ## 🙏 Credits & Gratitude
 This project was born from personal reflection, faith, and the invaluable support of friends, mentors, and the open-source community. Special thanks to the developers behind the AI frameworks, Bun runtime, LM Studio, and desktop packaging tools that made this possible. 
 
-And most importantly, thank you to the source of all inspiration, guidance, and strength. 🙏✨
+And most importantly, thank you to Jesus for all the supportive friends, inspiration, guidance, and strength. 🙏✨
 
 ## 📜 License
 This project is shared under the [MIT License](LICENSE). Feel free to modify, distribute, and build upon it!
 ```
-
-### 📌 Quick Tips Before Publishing:
-1. Replace `YOUR_USERNAME` in the git clone URL with your actual GitHub username.
-2. If you have a `package.json`, ensure it contains:
-   ```json
-   "scripts": {
-     "dev": "bun run --watch src/index.ts",
-     "build": "bun build src/index.ts --target=bun --outdir=dist"
-   }
-   ```
-3. Add a screenshot of Hyper Egg running on a Mini PC or showing the LMStudio connection for visual impact.
-
-Let me know if you need a `CONFIG.md` template, a `package.json` starter, or help packaging the binaries! 🥚✨
