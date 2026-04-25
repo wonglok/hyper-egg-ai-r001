@@ -12,7 +12,7 @@ Welcome to **Hyper Egg AI Folder App**, a lightweight, privacy-first desktop app
 - 📖 **Custom Use Cases**: Perfect for diaries, devotional libraries, study notes, journaling, or project documentation
 - 🌍 **Cross-Platform Support**: Ready-to-run binaries for Windows and macOS, plus full source code for Linux
 - 🔒 **Privacy-First Design**: All file processing is local by default (no data leaves your device unless explicitly configured)
-- ⚡ **Bun-Powered Runtime**: Lightning-fast dependency resolution, native TypeScript/JS execution, and minimal overhead
+- ⚡ **Bun-Powered Development Stack**: Lightning-fast dependency resolution, native TypeScript/JS execution, and minimal overhead
 
 ## 🚀 Ultra-Lightweight & Hardware Support
 Hyper Egg is engineered for efficiency and accessibility. We prioritize optimized AI workflows so you can get intelligent insights on **any** device, including budget hardware.
