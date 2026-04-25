@@ -3,7 +3,7 @@
 
 *An intelligent, AI-powered desktop tool that reads, understands, and responds to the contents of any folder.*
 
-<img width="1536" height="672" alt="replicate-prediction-fhhrr0hgv5rmt0cxrmf98pfbkg" src="https://github.com/user-attachments/assets/56f3e85c-1ce4-47d8-8ad3-af6892444098" />
+https://github.com/user-attachments/assets/f0df8dda-4b21-4071-9bc3-5b5e66c33ade
 
 
 ## 📖 Overview
