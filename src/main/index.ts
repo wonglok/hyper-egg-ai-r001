@@ -88,6 +88,10 @@ function createWindow(): void {
     const dataToSend = { apikey, token, note: 'handle deep link' }
 
     mainWindow.webContents.send('data-update', dataToSend)
+
+    mainWindow.on('close', () => {
+      process.kill(0)
+    })
   }
 
   app.on('second-instance', (_: any, commandLine) => {
