@@ -18,6 +18,12 @@ Welcome to **Hyper Egg AI Folder App**, a lightweight, privacy-first desktop app
 3. Ask: `"What are my good days? What are my hard days? Can you suggest Bible verses to help me through them?"`
 4. The AI analyzes your entries, identifies emotional/spiritual patterns, and returns personalized reflections + relevant scripture.
 
+
+
+https://github.com/user-attachments/assets/91f5339f-6199-4702-8980-7cc03b55998c
+
+
+
 ## 🛠️ Installation & Usage
 
 ### 📦 Pre-built Binaries
