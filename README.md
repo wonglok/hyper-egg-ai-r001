@@ -1,4 +1,11 @@
 
+
+
+https://github.com/user-attachments/assets/a39d911d-2728-48d1-88e7-7c2847ce2c97
+
+
+
+
 # 🥚 Hyper Egg AI Folder App
 
 *An intelligent, AI-powered desktop tool that reads, understands, and responds to the contents of any folder.*
